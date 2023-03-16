@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class MonedaTesting {
+public class MonedaMain {
 
     public static void main(String[] args) {
 
