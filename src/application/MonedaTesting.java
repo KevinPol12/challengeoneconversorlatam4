@@ -39,6 +39,8 @@ public class MonedaTesting {
             end = input.nextInt();
             
         } while (end == 1);
+        
+        System.out.println("Thanks for using our services.");
 
     }//End main
 

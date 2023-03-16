@@ -30,7 +30,7 @@ public class Converter {
         String goalName= monedas.get(finalCoin).getName();
         String initName= monedas.get(initCoin).getName();
         
-        System.out.printf("You want to convert %.2f of %s to %s currency\n.",amount,
+        System.out.printf("You want to convert %.2f %s to %s currency.\n",amount,
                             initName,goalName);
         
         if (initCoin == 0) {

@@ -8,7 +8,7 @@ public class Moneda {
     public Moneda(String name,double valuePerDollar){
         this.name = name;
         this.valuePerDollar=valuePerDollar;
-        this.valueFromDollar=1/valuePerDollar;
+        this.valueFromDollar=1/valuePerDollar; //reverse
     }
 
     public String getName() {
