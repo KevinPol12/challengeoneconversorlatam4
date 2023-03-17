@@ -7,11 +7,13 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class Main extends Application {
+	
+	
 	@Override
 	public void start(Stage stage) {
 		try {
 			Parent root = FXMLLoader.load(getClass().getResource("MonedaMain.fxml"));
-
+				System.out.println();
 			Scene scene = new Scene(root);
 
 			stage.setTitle("Project");
@@ -26,5 +28,6 @@ public class Main extends Application {
 
 	public static void main(String[] args) {
 		launch(args);
+
 	}
 }
