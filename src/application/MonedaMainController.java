@@ -14,6 +14,8 @@ import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.image.ImageView;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.VBox;
 import javafx.util.Duration;
 import logic.Converter;
@@ -96,8 +98,15 @@ public class MonedaMainController implements Initializable {
 		
 
 	}//End convert
+	
+	public void handleEnterKeyPress(KeyEvent event) throws Exception {
+		if(event.getCode() == KeyCode.ENTER) {
+			System.out.println("wassa");
+			convert();
+		}
+	}
 
 
 	
-}//End class
+}//End class controller
 

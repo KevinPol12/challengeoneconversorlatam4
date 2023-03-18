@@ -73,10 +73,10 @@
             </Label>
             <TextField fx:id="amountTextField" GridPane.columnIndex="1" />
             <ComboBox fx:id="currencyInitComboBox" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <ComboBox fx:id="currencyFinComboBox" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <ComboBox fx:id="currencyFinComboBox" onKeyPressed="#handleEnterKeyPress" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
          </children>
       </GridPane>
-      <GridPane layoutX="99.0" layoutY="274.0" prefHeight="106.0" prefWidth="179.0">
+      <GridPane layoutX="107.0" layoutY="274.0" prefHeight="106.0" prefWidth="171.0">
         <columnConstraints>
           <ColumnConstraints hgrow="SOMETIMES" maxWidth="190.0" minWidth="10.0" prefWidth="169.0" />
         </columnConstraints>
@@ -86,7 +86,7 @@
           <RowConstraints maxHeight="62.0" minHeight="10.0" prefHeight="37.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Label fx:id="usdConverterRateLabel" prefHeight="19.0" prefWidth="112.0" GridPane.halignment="CENTER">
+            <Label fx:id="usdConverterRateLabel" alignment="CENTER" prefHeight="19.0" prefWidth="112.0" GridPane.halignment="CENTER">
                <font>
                   <Font name="System Italic" size="12.0" />
                </font>
@@ -96,7 +96,7 @@
                   <Font name="Times New Roman Bold" size="19.0" />
                </font>
             </Label>
-            <Label fx:id="resultSymbolLabel" alignment="TOP_CENTER" contentDisplay="TOP" prefHeight="41.0" prefWidth="116.0" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+            <Label fx:id="resultSymbolLabel" alignment="TOP_CENTER" contentDisplay="TOP" prefHeight="41.0" prefWidth="180.0" GridPane.halignment="CENTER" GridPane.rowIndex="2">
                <font>
                   <Font name="Calisto MT" size="35.0" />
                </font>
