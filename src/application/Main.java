@@ -16,7 +16,7 @@ public class Main extends Application {
 				System.out.println();
 			Scene scene = new Scene(root);
 
-			stage.setTitle("Project");
+			stage.setTitle("Conversor");
 
 			stage.setScene(scene);
 
