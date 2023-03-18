@@ -15,7 +15,9 @@ public class Main extends Application {
 			Parent root = FXMLLoader.load(getClass().getResource("MonedaMain.fxml"));
 				System.out.println();
 			Scene scene = new Scene(root);
-
+			
+			stage.setResizable(false);
+			
 			stage.setTitle("Conversor");
 
 			stage.setScene(scene);
