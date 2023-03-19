@@ -71,7 +71,7 @@
                   <Insets right="5.0" />
                </GridPane.margin>
             </Label>
-            <TextField fx:id="amountTextField" GridPane.columnIndex="1" />
+            <TextField fx:id="amountTextField" onKeyPressed="#handleEnterKeyPress" GridPane.columnIndex="1" />
             <ComboBox fx:id="currencyInitComboBox" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
             <ComboBox fx:id="currencyFinComboBox" onKeyPressed="#handleEnterKeyPress" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
          </children>

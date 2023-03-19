@@ -68,7 +68,7 @@ public class MonedaMainController implements Initializable {
 		resultLabel.setText("Loading...");
 		loadingGif.setVisible(true);
 		
-		PauseTransition delay = new PauseTransition(Duration.seconds(2));// Este se puede desactivar si queres.		
+//		PauseTransition delay = new PauseTransition(Duration.seconds(2));// Este se puede desactivar si queres.		
 		Timeline timeline = new Timeline();
 		timeline.getKeyFrames().addAll(
 		    new KeyFrame(Duration.ZERO, e -> resultLabel.setVisible(true)),
