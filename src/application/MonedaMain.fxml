@@ -107,7 +107,7 @@
          <children>
             <ImageView fx:id="loadingGif" fitHeight="45.0" fitWidth="77.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../Infinity-1.7s-200px.gif" />
+                  <Image url="@../../Resources/gif/Infinity-1.7s-200px.gif" />
                </image>
             </ImageView>
          </children>

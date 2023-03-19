@@ -101,7 +101,6 @@ public class MonedaMainController implements Initializable {
 	
 	public void handleEnterKeyPress(KeyEvent event) throws Exception {
 		if(event.getCode() == KeyCode.ENTER) {
-			System.out.println("wassa");
 			convert();
 		}
 	}
