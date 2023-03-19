@@ -39,7 +39,7 @@ public class Converter {
         double convertionRateFromDollar= monedas.get(initCoin).getValueFromDollar();
         String goalName= monedas.get(finalCoin).getName();
         String initName= monedas.get(initCoin).getName();
-        DecimalFormat df = new DecimalFormat("#.##");
+        DecimalFormat df = new DecimalFormat("#,###.##");
         
         System.out.printf("You want to convert %.2f %s to %s currency.\n",amount,
                             initName,goalName);
