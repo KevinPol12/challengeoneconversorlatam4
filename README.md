@@ -25,6 +25,6 @@
 <ul>
   <li>Java 19</li>
   <li>Java FX</li>
-  <li>Font Papyrus en honor a Avatar</li>
+  <li>Font: "Papyrus" - en honor a Avatar</li>
   
 </ul>
